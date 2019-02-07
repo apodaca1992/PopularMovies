@@ -1,0 +1,56 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    tools:context="com.ivanmagda.popularmovies.view.fragment.MovieDetailFragment">
+
+    <TextView
+        android:id="@+id/tv_detail_movie_title"
+        style="@style/MovieTitleTextView"
+        tools:text="Chappie" />
+
+    <include
+        layout="@layout/primary_movie_info"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <!--Overview-->
+    <TextView
+        style="@style/HeadlineTextView"
+        android:paddingTop="@dimen/default_padding"
+        android:text="@string/tv_overview_title" />
+
+    <TextView
+        android:id="@+id/tv_detail_movie_overview"
+        style="@style/JustifyTextView"
+        android:paddingLeft="@dimen/default_padding"
+        android:paddingRight="@dimen/default_padding"
+        android:paddingTop="@dimen/padding_small"
+        android:textSize="18sp"
+        tools:text="Overview content goes here" />
+
+    <!--Reviews-->
+    <TextView
+        style="@style/HeadlineTextView"
+        android:paddingBottom="@dimen/padding_small"
+        android:paddingTop="@dimen/default_padding"
+        android:text="@string/tv_reviews_title" />
+
+    <include
+        layout="@layout/review"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <!--Trailers-->
+    <TextView
+        style="@style/HeadlineTextView"
+        android:paddingBottom="@dimen/padding_small"
+        android:text="@string/tv_trailers_title" />
+
+    <include
+        layout="@layout/trailer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>

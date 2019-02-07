@@ -1,0 +1,30 @@
+<resources>
+    <!--Activity and app specific.-->
+    <string name="app_name">Popular Movies</string>
+    <string name="activity_detail_title">Detail</string>
+
+    <!--Menu items names.-->
+    <string name="action_most_popular_name">Most Popular</string>
+    <string name="action_top_rated_name">Top Rated</string>
+    <string name="rating_name">"Rating: "</string>
+    <string name="release_year_name">"Release year: "</string>
+
+    <string name="popular_bar_title">Popular Movies</string>
+    <string name="top_rated_bar_title">Top Rated</string>
+
+    <string name="bt_mark_favorite_title">Mark as favorite</string>
+    <string name="bt_remove_from_favorites_title">Remove from favorites</string>
+    <string name="action_favorite_name">Favorite</string>
+    <string name="favorite_bar_title">Favorite Movies</string>
+    <string name="no_internet_connection_message">There is no internet connection</string>
+    <string name="tv_reviews_title">Reviews</string>
+    <string name="tv_overview_title">Overview</string>
+    <string name="bt_more">More</string>
+    <string name="no_reviews_message">No reviews.</string>
+    <string name="activity_reviews_title">Reviews</string>
+    <string name="tv_trailers_title">Trailers</string>
+    <string name="tv_no_trailers_title">No trailers.</string>
+    <string name="activity_trailers_title">Trailers</string>
+    <string name="action_share_name">Share</string>
+
+</resources>
